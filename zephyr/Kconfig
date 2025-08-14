@@ -1,0 +1,10 @@
+# SPDX-License-Identifier: Apache-2.0
+
+config MICRO_CDR
+    bool "Micro-CDR support"
+    default 0
+    help
+      Enable Micro-CDR library support
+      eProsima Micro CDR is a C library implementing the CDR
+      standard serialization methods. This library is focused on
+      embedded and resource-limited systems.

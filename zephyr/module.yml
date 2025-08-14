@@ -1,0 +1,5 @@
+name: micro-cdr
+
+build:
+  cmake: zephyr
+  kconfig: zephyr/Kconfig
